@@ -41,12 +41,12 @@ echo "KarmaBot downloaded!"
 
 echo ""
 echo "Downloading KarmaBot dependencies with pnpm."
-cd $directory/$tempinstalldir/karma-simple || failed "Could not enter the karma-simple folder - please check permissions!"
+cd $directory/$tempinstalldir/DuckBot2.0 || failed "Could not enter the karma-simple folder - please check permissions!"
 curl -L https://unpkg.com/@pnpm/self-installer | node
 pnpm install 
 
 cd "$directory"
-mv "$tempinstalldir"/karma-simple karma-simple
+mv "$tempinstalldir"/DuckBot2.0 DuckBot2.0
 rm -r "$tempinstalldir"
 
 echo ""
