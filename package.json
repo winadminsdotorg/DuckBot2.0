@@ -1,9 +1,9 @@
 {
-  "name": "karma-simple",
+  "name": "duckbot2",
   "version": "2.0.2",
   "description": "A simple, lightweight utility to award positive or negative Karma to any user/keyword. Adapted from IRC with a fresh approach.",
   "main": "karma.js",
-  "author": ".vlexar#0001 <shikhir@giesela.io>",
+  "author": ".MsftDuck#0001 <richilds@microsoft.com>",
   "license": "CC0-1.0",
   "keywords": [
     "discord",
@@ -16,12 +16,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shikhir-arora/karma-simple.git"
+    "url": "git+https://github.com/winadminsdotorg/DuckBot2.0.git"
   },
   "bugs": {
-    "url": "https://github.com/shikhir-arora/karma-simple/issues"
+    "url": "https://github.com/winadminsdotorg/DuckBot2.0/issues"
   },
-  "homepage": "https://karmabot.vlexar.pw",
+  "homepage": "https://winadmins.org",
   "engines": {
     "node": ">=11.0.0"
   },
